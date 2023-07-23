@@ -5272,7 +5272,7 @@ a {
 @media (max-width:768px) {
     .frame{
         height: 100%; 
-        min-height: 550px
+        min-height: 540px
     }
 }
 
