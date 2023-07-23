@@ -285,8 +285,9 @@
               </a>
             </div>
             <div class="flex lg:hidden">
-              <button onclick="show()"
-              id="show"
+              <button
+                onclick="show()"
+                id="show"
                 type="button"
                 class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
               >
@@ -309,7 +310,6 @@
               </button>
             </div>
             <div class="hidden lg:flex lg:gap-x-12">
-              
               <a
                 target="_self"
                 class="text-sm font-semibold leading-6 text-gray-900"
@@ -391,7 +391,6 @@
                           href="https://www.chatbase.co/signin?via=signin"
                           >Build Your Chatbot</a
                         >
-                        
                       </div>
                     </div>
                     <div class="hidden sm:block">
@@ -470,7 +469,7 @@
                     <p class="text-center pb-4">
                       This chatbot was trained on a document explaining<span
                         class="font-bold"
-                        >Chatbase</span
+                        >AI marketer</span
                       >
                     </p>
                     <p class="text-center">
@@ -479,9 +478,10 @@
                     </p>
                     <div class="my-8 rounded border">
                       <iframe
-                        src="https://www.chatbase.co/chatbot-iframe/chatbase--1--pdf-p680fxvnm"
+                        src="https://www.chatbase.co/chatbot-iframe/hBqiMDXVb8dn37-_vbhUo"
                         width="100%"
-                        height="600"
+                        style="height: 100%; min-height: 700px"
+                        frameborder="0"
                       ></iframe>
                     </div>
                   </div>
@@ -1195,10 +1195,14 @@
                 </svg>
               </span>
             </a>
-            <a class="block text-sm text-zinc-600" href="https://www.chatbase.co/privacy?via=privacyPolicy"
+            <a
+              class="block text-sm text-zinc-600"
+              href="https://www.chatbase.co/privacy?via=privacyPolicy"
               >Privacy Policy</a
             >
-            <a class="block text-sm text-zinc-600" href="https://www.chatbase.co/Terms?via=Terms-of-Service"
+            <a
+              class="block text-sm text-zinc-600"
+              href="https://www.chatbase.co/Terms?via=Terms-of-Service"
               >Terms of Service</a
             >
           </div>
@@ -1210,11 +1214,10 @@
         </p>
       </footer>
     </div>
-    <div id="headlessui-portal-root" bis_skin_checked="1" style="display: none;">
+    <div id="headlessui-portal-root" bis_skin_checked="1" style="display: none">
       <div data-headlessui-portal="" bis_skin_checked="1">
         <button
           type="button"
-          
           data-headlessui-focus-guard="true"
           aria-hidden="true"
           style="
@@ -1251,8 +1254,8 @@
               >
                 <div bis_skin_checked="1"></div>
                 <button
-                id="hide"
-                onclick="hide()"
+                  id="hide"
+                  onclick="hide()"
                   type="button"
                   class="-m-2.5 rounded-md p-2.5 text-gray-700"
                   tabindex="0"
@@ -1331,16 +1334,16 @@
       </div>
     </div>
 
-    
-<script>
-    function show() {
-      document.getElementById("headlessui-portal-root").style.display = "block";
-    }
+    <script>
+      function show() {
+        document.getElementById("headlessui-portal-root").style.display =
+          "block";
+      }
 
-    function hide(){
-        document.getElementById("headlessui-portal-root").style.display = "none";
-    }
+      function hide() {
+        document.getElementById("headlessui-portal-root").style.display =
+          "none";
+      }
     </script>
   </body>
-
 </html>

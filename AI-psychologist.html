@@ -6,6 +6,7 @@
     <title>Chatbase | Custom ChatGPT for your data</title>
     <meta name="robots" content="follow, index" />
     <link href="./favicon.ico" rel="shortcut icon" />
+    
     <meta
       content="Build an AI chatbot from your knowledge base and add it to your website or interact with it through our API."
       name="description"
@@ -56,6 +57,15 @@
         }
       });
     </script>
+    <script>
+        function show() {
+          document.getElementById("headlessui-portal-root").style.display = "block";
+        }
+    
+        function hide(){
+            document.getElementById("headlessui-portal-root").style.display = "none";
+        }
+        </script>
     <link rel="stylesheet" href="./styles/style.css" />
 
     <noscript data-n-css=""></noscript>
@@ -470,7 +480,7 @@
                     <p class="text-center pb-4">
                       This chatbot was trained on a document explaining<span
                         class="font-bold"
-                        >Chatbase</span
+                        >AI psychologist</span
                       >
                     </p>
                     <p class="text-center">
@@ -479,9 +489,10 @@
                     </p>
                     <div class="my-8 rounded border">
                       <iframe
-                        src="https://www.chatbase.co/chatbot-iframe/chatbase--1--pdf-p680fxvnm"
+                        src="https://www.chatbase.co/chatbot-iframe/uvTspQDLIVyRqH-k3reSn"
                         width="100%"
-                        height="600"
+                        style="height: 100%; min-height: 700px"
+                        frameborder="0"
                       ></iframe>
                     </div>
                   </div>
@@ -1332,15 +1343,6 @@
     </div>
 
     
-<script>
-    function show() {
-      document.getElementById("headlessui-portal-root").style.display = "block";
-    }
-
-    function hide(){
-        document.getElementById("headlessui-portal-root").style.display = "none";
-    }
-    </script>
   </body>
 
 </html>
