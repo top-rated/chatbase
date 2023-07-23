@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width" />
     <title>Chatbase | Custom ChatGPT for your data</title>
     <meta name="robots" content="follow, index" />
-    <link href="./favicon.ico" rel="shortcut icon" />
+    <link href="./favicon/favicon.ico" rel="shortcut icon" />
     <meta
       content="Build an AI chatbot from your knowledge base and add it to your website or interact with it through our API."
       name="description"
@@ -56,6 +56,17 @@
         }
       });
     </script>
+    <script>
+        function show() {
+          document.getElementById("headlessui-portal-root").style.display =
+            "block";
+        }
+  
+        function hide() {
+          document.getElementById("headlessui-portal-root").style.display =
+            "none";
+        }
+      </script>
     <link rel="stylesheet" href="./styles/style.css" />
 
     <noscript data-n-css=""></noscript>
@@ -316,12 +327,7 @@
                 href="#demo"
                 >Demo</a
               >
-              <a
-                target="_blank"
-                class="text-sm font-semibold leading-6 text-gray-900"
-                href="https://affiliates.chatbase.co/signup?via=chatgpt4"
-                >Affiliate</a
-              >
+              
               <a
                 target="_self"
                 class="text-sm font-semibold leading-6 text-gray-900"
@@ -1227,9 +1233,7 @@
           <div class="col-span-1 lg:col-span-2"></div>
           <div class="col-span-1 lg:col-span-2"></div>
         </div>
-        <p class="py-5">
-          Contact:<a href="mailto:support@chatbase.co">support@chatbase.co</a>
-        </p>
+        
       </footer>
     </div>
     <div id="headlessui-portal-root" bis_skin_checked="1" style="display: none">
@@ -1308,12 +1312,7 @@
                 href="#demo"
                 >Demo</a
               >
-              <a
-                target="_blank"
-                class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10"
-                href="https://affiliates.chatbase.co/signup?via=chatgpt4"
-                >Affiliate</a
-              >
+              
               <a
                 target="_self"
                 class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10"
@@ -1371,15 +1370,17 @@
     </div>
 
     <script>
-      function show() {
-        document.getElementById("headlessui-portal-root").style.display =
-          "block";
-      }
+        window.chatbaseConfig = {
+        chatbotId: "x44mA77zJWFXstciLY1rO",
+        }
+        </script>
+        <script
+        src="https://www.chatbase.co/embed.min.js"
+        id="x44mA77zJWFXstciLY1rO"
+        defer>
+        </script>
 
-      function hide() {
-        document.getElementById("headlessui-portal-root").style.display =
-          "none";
-      }
-    </script>
+    <iframe scrolling="yes" src="https://www.chatbase.co/chatbot-iframe/x44mA77zJWFXstciLY1rO" id="chatbase-bubble-window" style="border: none; position: fixed; flex-direction: column; justify-content: space-between; box-shadow: rgba(150, 150, 150, 0.2) 0px 10px 30px 0px, rgba(150, 150, 150, 0.2) 0px 0px 0px 1px; bottom: 0px; right: 0px; width: 100%; height: 100%; max-height: 824px; border-radius: 0px; display: none; z-index: 2147483646; overflow: hidden; left: unset;"></iframe>
+    <div id="chatbase-bubble-button" style="position: fixed; bottom: 1rem; right: 1rem; width: 50px; height: 50px; border-radius: 25px; background-color: rgb(0, 0, 0); box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px 0px; cursor: pointer; z-index: 2147483645; transition: all 0.2s ease-in-out 0s; left: unset; transform: scale(1);" bis_skin_checked="1"><div style="display: flex; align-items: center; justify-content: center; width: 100%; height: 100%; z-index: 2147483646;" bis_skin_checked="1"></div></div>
   </body>
 </html>

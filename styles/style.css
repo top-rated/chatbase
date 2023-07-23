@@ -5272,20 +5272,28 @@ a {
 @media (max-width:768px) {
     .frame{
         height: 100%; 
-        min-height: 570px
+        min-height: 550px
     }
 }
 
-@media (min-width:768px) and (max-width:1368px) {
+@media (min-width:768px) and (max-height: 900px) {
     .frame{
         height: 100%; 
-        min-height: 620px
+        min-height: 570px;
     }
 }
-@media (min-width:1368px) {
+
+@media (min-width:769px) and (min-height:900px) {
+    .frame{
+        min-height: 600px;
+        height: 100%; 
+
+    }
+}
+@media (min-width:1368px) and (min-height: 900px){
     .frame{
         height: 100%; 
-        min-height: 700px
+        min-height: 660px;
     }
 }
 @media (min-width: 1280px) {
