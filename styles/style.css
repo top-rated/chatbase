@@ -5344,6 +5344,16 @@ a {
     .xl\:justify-end {
         justify-content: flex-end
     }
+    .xl\:justify-start {
+        justify-content: flex-start
+    }
+    .xl\:-mt-2{
+        margin-top:-3px;
+    }
+    .xl\:mt-2{
+        margin-top:3px;
+    }
+    
 
     .xl\:space-y-0>:not([hidden])~:not([hidden]) {
         --tw-space-y-reverse: 0;
